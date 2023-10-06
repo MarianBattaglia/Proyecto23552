@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100;300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+.colorblanco {
+    color: white;
+}
+.coloresgrises {
+    background-color: rgb(66, 66, 66);
+    color: white;
+}
+.colorgris {
+    color: rgba(164, 165, 165, 0.836);
+}
+.coloramarillo {
+    background-color: yellow;
+    color: black;
+}
+.colorrojo {
+    background-color: red;
+    color: white;
+}
+.colorverde {
+    color: rgb(50, 132, 68);
+}
+.colorceleste {
+    background-color: #15A0B7;
+}
+.logonavegacion {
+    background-color: rgb(53, 58, 64); 
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align:right;
+    text-decoration: none;   
+}
+.logonavegacion img{
+    justify-content: flex-start;
+    width:150px;
+    height:90px;
+    padding-left: 5%;
+}
+.logonavegacion h2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 20%;
+}
+.listaheader {
+    display: flex;
+    padding-right: 30px;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    justify-content:space-between;
+    align-items: center;   
+    text-align: left;
+}
+.listaheader li{
+    margin-right: 10px;
+    padding-right: 10px;
+}
+.listaheader a{
+    text-decoration: none;
+}
+.Conferencia {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-content: flex-end;
+    align-items: flex-end;
+    text-align: left;
+}
+.Conferencia h1{
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    margin-right: 15px;
+    padding-bottom: 2%;
+}
+.Conferencia p{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align:right;
+    margin-left: 40%;
+    margin-right: 15px;
+    padding-bottom: 2%;
+}
+.Confe {
+    height: 600px ;
+    background: linear-gradient(to right, #0c0c0c9f, #1a19199a), url(../assets/img/ba1.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    display: flex;
+    color: white;
+    justify-content: center;
+    text-align: left;
+    align-items:flex-end;
+    flex-direction: column;
+}
+.Confe a{
+    display:inline-block;
+    text-align:center;
+    margin-left:5px;
+    border-right: 1px solid;
+    padding: 5px;
+    margin-right: 15px;
+    text-decoration: none;
+    border-radius: 6px 6px 6px 6px;
+    -webkit-border-radius: 6px 6px 6px 6px;
+    -moz-border-radius: 6px 6px 6px 6px;
+    border: 2px solid #080000;
+    background: #29A744;   
+}
+.Confe a[href^='#Oradores']{
+    background:none;
+    border-radius: 6px 6px 6px 6px;
+    -webkit-border-radius: 6px 6px 6px 6px;
+    -moz-border-radius: 6px 6px 6px 6px;
+    border: 2px solid #080000;
+}   
+.Oradores{
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    border-radius: 5px solido rgb(7, 7, 7);
+}
+.tarjetabloque{
+    display: flex; 
+    margin: 0 10% 0 10%;
+    border-radius: 1px solido rgb(7, 7, 7);
+}
+.tarjeta{
+    background-color: white;
+    display: inline-block;
+    width: 40%;
+    height: 80%;
+    text-align: left;
+    border-radius: 1px sólido #0c0c0c;
+}
+.tarjeta img{
+    height: 60%;
+    width: 90%;
+    border: 5px;
+}
+.tarjeta h4{
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 0, 5px;
+}
+.tarjeta p{
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.Oradores h2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: grey;
+
+}
+.Oradores h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:xx-large;
+    font-style:initial;
+    padding-left: 5px;
+}
+.bsas{
+    border: 2px sólido #fafafa;
+}
+.mardelplata {
+    background-color: rgba(53, 58, 64);
+    border-radius: 5px,0,0,5px solid whithe;
+    display: flex;
+    margin-left: 0px;
+    align-content: flex-start;
+}
+.mardelplata img{
+    width: 700px;
+    margin-right: 5px;
+    border: 2px sólido #fafafa;
+}
+.bsas h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    height: 5px;
+    flex-wrap: nowrap;
+    display: flex;
+    text-align: left;
+    padding-top: 30px;
+    margin-left: 10px;
+    align-items: flex-start;
+    align-content: flex-start;
+    
+}
+.bsas p{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;  
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: flex-start;
+}
+.bsas a{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 6px 6px 6px 6px;
+    -webkit-border-radius: 6px 6px 6px 6px;
+    -moz-border-radius: 6px 6px 6px 6px;
+    border: 2px solid rgb(250, 248, 248)
+}
+.FormularioOrador{
+    display: inline-block;
+    height:300px;
+    margin-left: 30%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(97, 97, 97);
+}
+.FormularioOrador h2{
+    margin-top: 20px;
+    text-align:center;
+    align-content: flex-start;
+    font-size: xx-small;
+}
+.FormularioOrador h3{
+    margin-top: 7px;
+    text-align: center;
+    align-content: flex-start;
+    color: rgb(29, 29, 29);
+}
+.FormularioOrador h4{
+    text-align: left;
+    align-content: flex-start;
+    align-items: flex-start;
+    font-size: xx-small;
+    padding-bottom: 10px;
+}
+.FormularioOrador p{
+    align-items: center;
+    align-content: flex-start;
+    padding-bottom: 10px;
+    margin-left: 10%;
+    font-size: x-small;
+}
+.input{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    margin-bottom: 10px;    
+    justify-content: space-between;
+    text-align: center;
+    border: 1px solid;
+    font-size: large;
+    color: rgba(148, 147, 147, 0.664);
+    
+}
+.input input {
+    text-align: center;
+    flex: 1;
+    height: 30%;
+    padding: 5px;
+    border-width: 1px; 
+    border-radius: 1px;
+}
+.input input #nombre{
+    margin-right: 5px;
+}
+.input input #email{
+    margin-right: 5px;
+}
+.input input #reset{
+    background-color: #96C93E;
+}
+.input textarea {
+    width: 100%;
+    height: 70px;
+    border: 1px solid rgba(148, 147, 147, 0.664);
+    border-radius: 4px;
+    font-size: large;
+}
+.footer {
+    display:flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    height: 60px;
+    background-image: linear-gradient(to right, #1d4845, #144a4e, #0e4c58, #114d61, #1e4d69);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:medium;  
+}
+@media screen and (max-width: 768px) {
+    .logonavegacion {
+        margin-left: auto;
+        padding: 0%;
+        justify-content: center;
+        flex-direction: column; 
+        align-items: center;
+        text-align: center;
+    }
+    .logonavegacion img {
+        max-width: 100%; 
+        height: auto; 
+    }
+    .logonavegacion h2 {
+        flex-direction: column;
+        text-align: center;
+        padding-right: 0%;
+        font-size: 16px; 
+        margin-top: 10px; 
+    }
+    .listaheader {
+        flex-direction: column; 
+        text-align: center; 
+        padding-right: 0; 
+    }
+    .listaheader li {
+        margin-right: 0; 
+        border-right: none; 
+        padding-right: 0; 
+        margin-bottom: 10px; 
+    }
+    .listaheader a {
+        text-decoration: none;
+    }
+    .Conferencia {
+        padding: 0; 
+    }
+    .Conferencia h1 {
+        margin-right: 0; 
+        padding-bottom: 2%;
+    }
+    .Conferencia p {
+        margin-left: 0; 
+        padding-bottom: 2%;
+    }
+    .Confe {
+        padding: 20px 10px; 
+    }
+    .Confe a {
+        display: inline-block;
+        text-align: center;
+        border-right: none; 
+        padding: 5px 10px; 
+        margin-right: 0; 
+        margin-bottom: 10px; 
+        text-align: center; 
+    }
+    .Oradores {
+        flex-direction: column;
+        align-items: center;
+        height: auto; 
+    }
+    .tarjetabloque {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0; 
+    }
+    .tarjeta {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%; 
+        margin-bottom: 20px; 
+    }
+    .tarjeta img {
+        max-width: 100%; 
+        height: auto; 
+    }
+    .tarjeta h4 {
+        margin-right: 0; 
+        padding: 0 5px; 
+    }
+    .tarjeta p {
+        padding: 0 10px; 
+        font-size: auto;
+        margin-left: 30px;
+        text-align: center;
+    }
+    .Oradores h2 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-size: 14px; 
+    }
+    .Oradores h3 {
+        font-size: 24px; 
+        padding-left: 0; 
+    }
+    .mardelplata {
+        display: block;
+        margin-left: 0; 
+        align-items: center; 
+    }
+    .mardelplata img {
+        width: 100%; 
+        height: auto; 
+    }
+    .bsas h2 {
+        height: auto;
+        font-size: 24px; 
+        padding-top: 10px; 
+        margin-left: 0; 
+        align-items: center; 
+        text-align: center; 
+        flex-direction: column;
+    }
+    .bsas p {
+        padding-top: 20px; 
+        padding-bottom: 20px; 
+        margin-left: 0; 
+        text-align: center;
+    }
+    .bsas a {
+        
+        text-align: center;
+        align-content: flex-start;
+        justify-content: center;
+    }
+    .FormularioOrador {
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: auto;
+        text-align: center;
+        width: 90%; 
+    }
+    .footer {
+        height:auto;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .footer li {
+        margin: 0;
+        padding: 0;
+    }
+    }    
